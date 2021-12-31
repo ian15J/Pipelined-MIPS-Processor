@@ -1,0 +1,107 @@
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 23:18:25 on Dec 10,2021
+vcom -2008 -work internal/ModelSimContainer/work src/*.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MIPS_Processor
+-- Compiling architecture structure of MIPS_Processor
+-- Compiling entity flush_N
+-- Compiling architecture structural of flush_N
+-- Compiling entity regMEM_WB
+-- Compiling architecture structural of regMEM_WB
+-- Compiling entity control_unit
+-- Compiling architecture dataflow of control_unit
+-- Compiling entity forward_control
+-- Compiling architecture behavioral of forward_control
+-- Compiling entity repl
+-- Compiling architecture dataflow of repl
+-- Compiling entity mux8t1
+-- Compiling architecture dataflow of mux8t1
+-- Loading package std_logic_textio
+-- Loading package ENV
+-- Compiling entity tb
+-- Compiling architecture mixed of tb
+-- Compiling entity mux4t1_N
+-- Compiling architecture dataflow of mux4t1_N
+-- Compiling entity invg_N
+-- Compiling architecture structural of invg_N
+-- Compiling entity RegFile32x32b
+-- Compiling architecture structural of RegFile32x32b
+-- Compiling entity full_add
+-- Compiling architecture structural of full_add
+-- Compiling entity flush_1
+-- Compiling architecture structural of flush_1
+-- Compiling entity xor2t1_N
+-- Compiling architecture structural of xor2t1_N
+-- Compiling entity gp_register_32
+-- Compiling architecture structural of gp_register_32
+-- Compiling entity xorg2
+-- Compiling architecture dataflow of xorg2
+-- Compiling entity invg
+-- Compiling architecture dataflow of invg
+-- Compiling entity mux2t1
+-- Compiling architecture structural of mux2t1
+-- Compiling entity decoder5t32
+-- Compiling architecture dataflow of decoder5t32
+-- Compiling entity register_N
+-- Compiling architecture structural of register_N
+-- Compiling entity eq_32
+-- Compiling architecture structural of eq_32
+-- Compiling entity mem_forward_control
+-- Compiling architecture behavioral of mem_forward_control
+-- Compiling entity nor32t1
+-- Compiling architecture dataflow of nor32t1
+-- Compiling entity org2
+-- Compiling architecture dataflow of org2
+-- Compiling entity or2t1_N
+-- Compiling architecture structural of or2t1_N
+-- Compiling entity dffg
+-- Compiling architecture mixed of dffg
+-- Compiling entity add_sub_N
+-- Compiling architecture structural of add_sub_N
+-- Compiling entity mux4t1
+-- Compiling architecture dataflow of mux4t1
+-- Loading package NUMERIC_STD
+-- Compiling entity mem
+-- Compiling architecture rtl of mem
+-- Compiling entity mux32t1_N
+-- Compiling architecture dataflow of mux32t1_N
+-- Compiling entity and2t1_N
+-- Compiling architecture structural of and2t1_N
+-- Compiling entity andg2
+-- Compiling architecture dataflow of andg2
+-- Compiling entity Fetch
+-- Compiling architecture structural of Fetch
+-- Compiling entity sign_extend
+-- Compiling architecture structural of sign_extend
+-- Compiling entity regID_EX
+-- Compiling architecture structural of regID_EX
+-- Compiling entity tb_pipeline_update
+-- Compiling architecture behavior of tb_pipeline_update
+-- Compiling entity regIF_ID
+-- Compiling architecture structural of regIF_ID
+-- Compiling entity sp_register_32
+-- Compiling architecture structural of sp_register_32
+-- Compiling entity full_add_N
+-- Compiling architecture structural of full_add_N
+-- Compiling entity slt_N
+-- Compiling architecture dataflow of slt_N
+-- Compiling entity hazard_control
+-- Compiling architecture structural of hazard_control
+-- Compiling entity id_forward_control
+-- Compiling architecture behavioral of id_forward_control
+-- Compiling entity regEX_MEM
+-- Compiling architecture structural of regEX_MEM
+-- Compiling entity ALU_Control
+-- Compiling architecture dataflow of ALU_Control
+-- Compiling entity ALU
+-- Compiling architecture structural of ALU
+-- Compiling entity mux2t1_N
+-- Compiling architecture structural of mux2t1_N
+-- Compiling entity pc_register_32
+-- Compiling architecture structural of pc_register_32
+-- Compiling entity barrel_shifter
+-- Compiling architecture struct of barrel_shifter
+End time: 23:18:27 on Dec 10,2021, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0

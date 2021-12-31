@@ -1,0 +1,62 @@
+
+#
+# CprE 381 Generated Quartus Settings File
+#
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.0.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:07:08  JANUARY 28, 2019"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.0.0 Standard Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name TOP_LEVEL_ENTITY MIPS_Processor
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/ALU.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/ALU_Control.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/Fetch.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/MIPS_Processor.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/RegFile32x32b.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/add_sub_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/and2t1_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/andg2.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/barrel_shifter.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/control_unit.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/decoder5t32.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/dffg.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/eq_32.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/eq_forward_control.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/flush_1.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/flush_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/forward_control.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/full_add.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/full_add_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/gp_register_32.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/hazard_control.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/invg.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/invg_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/mem.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/mem_forward_control.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/mux2t1.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/mux2t1_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/mux32t1_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/mux4t1.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/mux4t1_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/mux8t1_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/nor32t1.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/or2t1_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/org2.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/pc_register_32.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/regEX_MEM.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/regID_EX.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/regIF_ID.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/regMEM_WB.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/register_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/repl.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/sign_extend.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/slt_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/sp_register_32.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/tb_pipeline_update.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/xor2t1_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/ianjohn/cpre381/cpre381-project2/Synthesis-toolflow/src/xorg2.vhd"
